@@ -1,0 +1,6 @@
+interface:
+  display_name: "Homebridge Govee Older"
+  short_description: "Repo-specific patterns and workflows for homebridge-govee-older"
+  default_prompt: "Use the homebridge-govee-older repo skill to follow existing architecture, testing, and workflow conventions."
+policy:
+  allow_implicit_invocation: true
