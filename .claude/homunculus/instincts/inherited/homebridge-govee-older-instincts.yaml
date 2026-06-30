@@ -1,0 +1,386 @@
+# Instincts generated from https://github.com/x86txt/homebridge-govee-older
+# Generated: 2026-06-30T02:57:11.555Z
+# Version: 2.0
+# NOTE: This file supplements (does not replace) any existing curated instincts.
+# High-confidence manually curated instincts should be preserved alongside these.
+
+---
+id: homebridge-govee-older-commit-conventional
+trigger: "when writing a commit message"
+confidence: 0.85
+domain: git
+source: repo-analysis
+source_repo: https://github.com/x86txt/homebridge-govee-older
+---
+
+# Homebridge Govee Older Commit Conventional
+
+## Action
+
+Use conventional commit format with prefixes: feat
+
+## Evidence
+
+- 2 commits analyzed
+- Detected conventional commit pattern
+- Examples: feat: add support for Ceiling Light Ultra H1270, feat: expose independent main/background zones for two-zone lights
+
+---
+id: homebridge-govee-older-commit-length
+trigger: "when writing a commit message"
+confidence: 0.6
+domain: git
+source: repo-analysis
+source_repo: https://github.com/x86txt/homebridge-govee-older
+---
+
+# Homebridge Govee Older Commit Length
+
+## Action
+
+Write moderate-length commit messages (~57 characters)
+
+## Evidence
+
+- Average commit message length: 57 chars
+- Based on 2 commits
+
+---
+id: homebridge-govee-older-naming-files
+trigger: "when creating a new file"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: https://github.com/x86txt/homebridge-govee-older
+---
+
+# Homebridge Govee Older Naming Files
+
+## Action
+
+Use camelCase naming convention
+
+## Evidence
+
+- Analyzed file naming patterns in repository
+- Dominant pattern: camelCase
+
+---
+id: homebridge-govee-older-import-relative
+trigger: "when importing modules"
+confidence: 0.75
+domain: code-style
+source: repo-analysis
+source_repo: https://github.com/x86txt/homebridge-govee-older
+---
+
+# Homebridge Govee Older Import Relative
+
+## Action
+
+Use relative imports for project files
+
+## Evidence
+
+- Import analysis shows relative import pattern
+- Example: import { x } from '../lib/x'
+
+---
+id: homebridge-govee-older-export-style
+trigger: "when exporting from a module"
+confidence: 0.7
+domain: code-style
+source: repo-analysis
+source_repo: https://github.com/x86txt/homebridge-govee-older
+---
+
+# Homebridge Govee Older Export Style
+
+## Action
+
+Prefer default exports
+
+## Evidence
+
+- Export pattern analysis
+- Dominant style: default
+
+---
+id: homebridge-govee-older-test-separate
+trigger: "when writing tests"
+confidence: 0.8
+domain: testing
+source: repo-analysis
+source_repo: https://github.com/x86txt/homebridge-govee-older
+---
+
+# Homebridge Govee Older Test Separate
+
+## Action
+
+Place tests in the tests/ or __tests__/ directory, mirroring src structure
+
+## Evidence
+
+- Separate test directory pattern detected
+- Tests live in dedicated test folders
+
+---
+id: homebridge-govee-older-workflow-add-or-enhance-device-support
+trigger: "when doing add or enhance device support"
+confidence: 0.6
+domain: workflow
+source: repo-analysis
+source_repo: https://github.com/x86txt/homebridge-govee-older
+---
+
+# Homebridge Govee Older Workflow Add Or Enhance Device Support
+
+## Action
+
+Follow the add-or-enhance-device-support workflow:
+1. Update the device handling logic in the appropriate file (e.g., add model to constants, enhance device handler).
+2. Update CHANGELOG.md to document the new or improved support.
+
+## Evidence
+
+- Workflow detected from commit patterns
+- Frequency: ~2x per month
+- Files: CHANGELOG.md, lib/utils/constants.js, lib/device/light.js
+
+---
+id: homebridge-govee-older-instinct-file-naming
+trigger: "When creating or renaming files in the codebase"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: x86txt/homebridge-govee-older
+---
+
+# Homebridge Govee Older Instinct File Naming
+
+## Action
+
+Use camelCase for file names
+
+## Evidence
+
+- Pattern in namingConventions.files
+- lib/device/light.js
+
+---
+id: homebridge-govee-older-instinct-function-naming
+trigger: "When defining functions"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: x86txt/homebridge-govee-older
+---
+
+# Homebridge Govee Older Instinct Function Naming
+
+## Action
+
+Use camelCase for function names
+
+## Evidence
+
+- Pattern in namingConventions.functions
+
+---
+id: homebridge-govee-older-instinct-class-naming
+trigger: "When defining classes"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: x86txt/homebridge-govee-older
+---
+
+# Homebridge Govee Older Instinct Class Naming
+
+## Action
+
+Use PascalCase for class names
+
+## Evidence
+
+- Pattern in namingConventions.classes
+
+---
+id: homebridge-govee-older-instinct-constant-naming
+trigger: "When defining constants"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: x86txt/homebridge-govee-older
+---
+
+# Homebridge Govee Older Instinct Constant Naming
+
+## Action
+
+Use SCREAMING_SNAKE_CASE for constant names
+
+## Evidence
+
+- Pattern in namingConventions.constants
+- lib/utils/constants.js
+
+---
+id: homebridge-govee-older-instinct-import-style
+trigger: "When importing modules"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: x86txt/homebridge-govee-older
+---
+
+# Homebridge Govee Older Instinct Import Style
+
+## Action
+
+Use relative import paths
+
+## Evidence
+
+- Pattern in importStyle
+- lib/device/light.js
+
+---
+id: homebridge-govee-older-instinct-export-style
+trigger: "When exporting modules"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: x86txt/homebridge-govee-older
+---
+
+# Homebridge Govee Older Instinct Export Style
+
+## Action
+
+Use default exports
+
+## Evidence
+
+- Pattern in exportStyle
+- lib/device/light.js
+
+---
+id: homebridge-govee-older-instinct-error-handling
+trigger: "When handling errors in code"
+confidence: 0.7
+domain: code-style
+source: repo-analysis
+source_repo: x86txt/homebridge-govee-older
+---
+
+# Homebridge Govee Older Instinct Error Handling
+
+## Action
+
+Use try-catch blocks for error handling
+
+## Evidence
+
+- Pattern in errorHandling.style
+
+---
+id: homebridge-govee-older-instinct-test-location
+trigger: "When adding or updating tests"
+confidence: 0.7
+domain: testing
+source: repo-analysis
+source_repo: x86txt/homebridge-govee-older
+---
+
+# Homebridge Govee Older Instinct Test Location
+
+## Action
+
+Place tests in a separate folder from source code
+
+## Evidence
+
+- Pattern in architecture.testLocation
+
+---
+id: homebridge-govee-older-instinct-git-commit-format
+trigger: "When making a git commit"
+confidence: 0.9
+domain: git
+source: repo-analysis
+source_repo: x86txt/homebridge-govee-older
+---
+
+# Homebridge Govee Older Instinct Git Commit Format
+
+## Action
+
+Use the conventional commit format with the 'feat' prefix for new features (e.g., 'feat: add support for ...')
+
+## Evidence
+
+- Pattern in commits.prefixes
+- Seen in commit 'feat: add support for Ceiling Light Ultra H1270'
+
+---
+id: homebridge-govee-older-instinct-git-commit-length
+trigger: "When writing a commit message"
+confidence: 0.7
+domain: git
+source: repo-analysis
+source_repo: x86txt/homebridge-govee-older
+---
+
+# Homebridge Govee Older Instinct Git Commit Length
+
+## Action
+
+Keep commit messages concise, around 57 characters on average
+
+## Evidence
+
+- Pattern in commits.averageLength
+
+---
+id: homebridge-govee-older-instinct-add-device-support-workflow-logic
+trigger: "When adding or enhancing support for a device model"
+confidence: 0.9
+domain: workflow
+source: repo-analysis
+source_repo: x86txt/homebridge-govee-older
+---
+
+# Homebridge Govee Older Instinct Add Device Support Workflow Logic
+
+## Action
+
+Update device handling logic in the relevant file (e.g., add model to constants, enhance device handler)
+
+## Evidence
+
+- Workflow: add-or-enhance-device-support
+- lib/utils/constants.js
+- lib/device/light.js
+
+---
+id: homebridge-govee-older-instinct-add-device-support-workflow-changelog
+trigger: "After updating device handling logic for a new or improved device model"
+confidence: 0.9
+domain: workflow
+source: repo-analysis
+source_repo: x86txt/homebridge-govee-older
+---
+
+# Homebridge Govee Older Instinct Add Device Support Workflow Changelog
+
+## Action
+
+Update CHANGELOG.md to document the new or improved support
+
+## Evidence
+
+- Workflow: add-or-enhance-device-support
+- CHANGELOG.md
+
